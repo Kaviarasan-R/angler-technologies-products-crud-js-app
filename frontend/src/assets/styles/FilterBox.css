@@ -1,0 +1,35 @@
+.filter-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.search-box {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.radio-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.radio-container > label {
+  color: white;
+}
+
+.radio-container > label > input {
+  margin-right: 5px;
+}
+
+.dropdown-box {
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.filter-btn {
+  padding: 5px;
+  margin-bottom: 15px;
+}

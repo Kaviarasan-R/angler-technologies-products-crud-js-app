@@ -1,0 +1,45 @@
+.product-card {
+  display: flex;
+  padding: 0.5rem;
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  position: relative;
+}
+
+.product-card:hover {
+  background-color: #0a0a0a;
+  box-shadow: 0 0 30px 10px #5dd4ac;
+}
+
+.avatar {
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.info {
+  width: 100%;
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.info h3,
+.info p {
+  margin-bottom: 0.5rem;
+}
+
+.white-icon {
+  color: white;
+}
+
+.options {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100px;
+  top: 20%;
+}
