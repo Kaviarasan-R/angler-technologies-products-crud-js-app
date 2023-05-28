@@ -1,6 +1,6 @@
 # Backend Using Node JS
 
-.env Description
+Create .env file and add below credentials to it.
 
 PORT=5000
 
@@ -19,7 +19,7 @@ MAIL_ID=<?>
 MAIL_PASS=<?>
 
 
-We're using totally 8 api's.
+## We're using totally 8 api's.
 
 1. Register
 2. Login
