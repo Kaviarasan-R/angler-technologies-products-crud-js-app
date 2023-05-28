@@ -15,6 +15,8 @@ import {
 import Card from "../components/AuthCard";
 import NavBar from "../components/NavBar";
 
+import "../assets/styles/CrudProduct.css";
+
 const AddProduct = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
@@ -89,7 +91,7 @@ const AddProduct = () => {
         {!type && <h1 className='title'>Add Product</h1>}
         {type && <h1 className='title'>Update Product</h1>}
         <p className='subtitle'>Enter product details</p>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className='product-form'>
           <label>
             Name:
             <input
@@ -135,11 +137,13 @@ const AddProduct = () => {
               name='description'
               value={formData.description}
               onChange={handleInputChange}
+              rows={5}
+              cols={25}
+              style={{ resize: "none" }}
               required
             ></textarea>
           </label>
           <label>
-            Image:
             <input
               type='file'
               accept='image/*'
@@ -147,7 +151,9 @@ const AddProduct = () => {
               required
             />
           </label>
-          <button type='submit'>Submit</button>
+          <button type='submit' className='submit-btn'>
+            Submit
+          </button>
         </form>
       </Card>
     </>
