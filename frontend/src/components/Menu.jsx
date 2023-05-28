@@ -31,8 +31,8 @@ export default function Menu() {
         <Link className='nav-dropdown-link' to={"/"}>
           Home
         </Link>
-        <Link className='nav-dropdown-link' to={"/contacts"}>
-          Contacts
+        <Link className='nav-dropdown-link' to={"/products"}>
+          Products
         </Link>
         {/* Display logout only when user logged in */}
         {user ? (
