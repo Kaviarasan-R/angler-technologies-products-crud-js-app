@@ -1,0 +1,27 @@
+.product-form {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 100%;
+  color: white;
+  gap: 1rem;
+}
+
+.product-form > label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit-btn {
+  display: block;
+  margin: 10px auto;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  outline: 0;
+  font-family: inherit;
+  cursor: pointer;
+  background-color: #4e65f7;
+  color: white;
+  border: 2px solid transparent;
+}
