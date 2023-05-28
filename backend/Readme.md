@@ -1,5 +1,16 @@
 # Backend Using Node JS
 
+.env Description
+
+PORT=5000
+JWT_SECRET=<?>
+MONGO_URI=<?>
+CLOUDINARY_CLOUD_NAME=<?>
+CLOUDINARY_KEY=<?>
+CLOUDINARY_SECRET=<?>
+MAIL_ID=<?>
+MAIL_PASS=<?>
+
 We're using totally 8 api's.
 
 1. Register
