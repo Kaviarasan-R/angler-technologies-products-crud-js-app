@@ -1,4 +1,4 @@
-# Product Management
+# Product Management - SDE Task from Angler Technologies
 
 This project is a React application that allows users to manage and showcase a collection of products. It provides functionality to add new products, update existing products, and delete products. The application utilizes modern web development technologies such as React, Redux, and Axios for handling the frontend logic and making API calls to the backend server.
 
